@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  //backgroundImage = require('../images/header-bg.jpg');
+  getBakgroundImg() {
+    return "url('../images/header-bg.jpg')";
+  }
 }
